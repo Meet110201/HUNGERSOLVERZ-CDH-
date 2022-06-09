@@ -138,7 +138,7 @@ if (isset($_POST['logout'])) {
 
    <script>
       let date = new Date();
-      //    console.log(date);
+        
       date.setDate(date.getDate() + 1);
       let day = date.getDate();
       let month = date.getMonth() + 1;
